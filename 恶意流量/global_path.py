@@ -1,0 +1,7 @@
+white_path = r'C:\Users\Administrator\Desktop\DNS恶意域名检测\Datacon2020加密流量检测\eta_1\train\white'
+black_path = r'C:\Users\Administrator\Desktop\DNS恶意域名检测\Datacon2020加密流量检测\eta_1\train\black'
+csv_path = r'C:\Users\Administrator\Desktop\DNS恶意域名检测\Datacon2020加密流量检测\eta_1\train\csv'
+train_path = r'C:\Users\Administrator\Desktop\DNS恶意域名检测\Datacon2020加密流量检测\eta_1\train'
+test_path = r'C:\Users\Administrator\Desktop\DNS恶意域名检测\Datacon2020加密流量检测\eta_1\train\test'
+test2_path = r'C:\Users\Administrator\Desktop\DNS恶意域名检测\Datacon2020加密流量检测\eta_1\train\test2'
+txt_path = r'C:\Users\Administrator\Desktop\DNS恶意域名检测\Datacon2020加密流量检测\eta_1\train\txt'
