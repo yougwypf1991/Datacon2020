@@ -28,8 +28,11 @@ def packet_feature(file):
     cmd = cmd % absolute_path
     # print('cmd: ', cmd)
     res = os.popen(cmd)     #调用系统命令
+
     data = str(res.read())  #获取终端命令执行结果
+    print(data)
     json_data2 = json.loads(data)   #将字符串序列化为json格式
+    print(json_data2)
     count = 0   #统计报文数
     probability = {}    #存储离散概率字典
     for i in range(1515):

@@ -7,15 +7,7 @@ import globalValue
 import pandas as pd
 
 
-def hellinger():    #计算海林格距离
-    pass
-
-
 def RandomForestClassfy(X, Y):  #分类决策
-    # np.random.seed(11)
-    # np.random.shuffle(X)
-    # np.random.shuffle(11)
-    # np.random.shuffle(Y)
     X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
     rfc = RandomForestClassifier(n_estimators=7, n_jobs=-1, max_features="auto", random_state=11, bootstrap=True)
     score = cross_val_score(rfc, X_train, Y_train)
